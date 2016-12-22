@@ -24,9 +24,10 @@ export class MyApp {
       },
       onError = function (error) {
         console.log('Initialization Error', error);
-      };
+      },
+      mixpanelToken= 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'; // https://mixpanel.com/help/questions/articles/where-can-i-find-my-project-token
 
-      Mixpanel.init('538f12cf19a61eeaa7f4d44d0cafbe25')
+      Mixpanel.init(mixpanelToken)
               .then(onSuccess)
               .catch(onError);
       /** End **/
