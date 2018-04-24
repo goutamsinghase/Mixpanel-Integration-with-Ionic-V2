@@ -9,10 +9,15 @@ ionic info
 Your system information:
 
 Cordova CLI: 6.3.1
+
 Ionic CLI Version: 2.1.1
+
 Ionic App Lib Version: 2.1.1
+
 OS: Distributor ID:	Ubuntu Description:	Ubuntu 14.04.5 LTS 
+
 Node Version: v5.3.0
+
 --------------------------------
 
 #Install Node Modules dependencies
